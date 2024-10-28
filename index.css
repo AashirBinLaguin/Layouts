@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.borde-arriba {
+    width: 100%;
+    height: 50px; 
+    background-color: blue;
+}
+
+.contenedor {
+    height: calc(100vh - 150px);
+    position: relative;
+    
+}
+
+.borde-izquierda {
+    width: 50%;
+    height: 82%;
+    background-color: gray;
+    position: absolute;
+    top: 42px;
+    left: 0;
+}
+
+.bordes-derecha {
+    position: absolute;
+    right: 0;
+    top: 42px;
+    width: 40%;
+    height: 78%;
+    padding: 10px 0;
+    background-color: blue;
+}
+
+.borde-medio {
+    width: 100%;
+    height: 200px;
+    background-color: lightblue;
+    margin-bottom: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.borde-inferior {
+    width: 100%;
+    height: 300px; 
+    background-color: brown;
+   position: relative;
+   bottom: 20px;
+}
+
+.borde-footer {
+    width: 100%;
+    height: 50px; 
+    background-color: blue;
+    margin-top: 22px;
+}
